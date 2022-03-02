@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(248, 188, 188, 0.363);
+    color: rgb(18, 0, 182);
+
+    font-size: 16pix;
+    font-weight: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+a {
+    color: rgb(18, 0, 182);
+    text-decoration: none;
+}
+
+a:visited{
+    color: grey;
+}
+
+.head {
+    display: flex;
+}
+
+@media (max-width: 1000px) {
+    .head {
+        text-align: center;
+        display: block;
+    }
+}
+
+.text{
+    margin-left: 40px;
+}
+
+.avatar {
+    width: 600px;
+    border-radius: 20%;
+}
+
+img {
+    width: 90%;
+}
+
+.nav > div{
+    width: 33%;
+    float: left;
+    box-sizing: border-box;
+    border: 4px rgba(248, 188, 188, 0.363);
+
+}
+
+div{
+    font-style: italic;
+    font-size: 20px;   
+}
